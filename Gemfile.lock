@@ -61,6 +61,11 @@ GEM
     json (1.8.3)
     jsonapi (0.1.1.beta2)
       json (~> 1.8)
+    jwt (1.5.4)
+    knock (1.5)
+      bcrypt (~> 3.1)
+      jwt (~> 1.5)
+      rails (>= 4.2)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -139,6 +144,7 @@ DEPENDENCIES
   bcrypt (~> 3.1.7)
   byebug
   factory_girl_rails (= 4.7)
+  knock (= 1.5)
   listen (~> 3.0.5)
   puma (~> 3.0)
   rack-cors
